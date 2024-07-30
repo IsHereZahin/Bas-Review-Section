@@ -1,38 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Averta:wght@400;600;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Averta:wght@400;600;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
     <div class="homepage">
-      <div class="homepage-child"></div>
-      <div class="search-input">
-        <div class="frame-parent">
-
-            <div class="search-bar-container">
-                <input class="search-input" placeholder="Search..." type="text" />
-                <button class="search-button">
-                    <img class="search-icon" alt="Search" src="./public/vector.svg" />
-                </button>
+        <div class="header-button">
+            <form action="">
+                <input type="search" placeholder="Search.." required>
+                <i class="fa fa-search"></i>
+            </form>
+            <div class="frame-parent11">
+                <div class="follow-up-button">
+                    <b class="follow-up">Add New Review</b>
+                </div>
             </div>
-
-          <div class="frame-parent2">
-            <button class="frame-button">Add New Review</button>
-          </div>
         </div>
-      </div>
 
       <section class="frame-group">
         <div class="frame-wrapper">
@@ -46,35 +35,36 @@
               </div>
 
               <div class="review-buttons">
-                <div class="need-to-send-button-group">
+
+                <div class="need-to-send-button-group-active">
                   <div class="need-to-send-button">
                     <span class="button-name">need to Send</span>
-                    <b>(5)</b>
+                        <b>(5)</b>
                   </div>
                 </div>
 
                 <div class="first-follow-up-group">
                   <div class="first-follow-up-button">
-                    <span class="button-name">1st follow-up</span>
-                    <b>(5)</b>
+                    <span class="button-name">1st Follow-up</span>
+                        <b>(5)</b>
                   </div>
                 </div>
                 <div class="second-follow-up-group">
                   <div class="second-follow-up-button">
-                    <span class="button-name">2nd follow-up</span>
-                    <b>(5)</b>
+                    <span class="button-name">2nd Follow-up</span>
+                        <b>(5)</b>
                   </div>
                 </div>
                 <div class="completed-group">
                   <div class="completed-button">
                     <span class="button-name">Completed</span>
-                    <b>(5)</b>
+                        <b>(5)</b>
                   </div>
                 </div>
                 <div class="trash-review-group">
                   <div class="trash-review-button">
-                    <span class="button-name">trash Review</span>
-                    <b>(5)</b>
+                    <span class="button-name">Trash Review</span>
+                        <b>(5)</b>
                   </div>
                 </div>
               </div>
@@ -84,13 +74,9 @@
               <div class="follow-up-button">
                 <b class="follow-up">Follow up</b>
               </div>
-              <div class="action-buttons">
+              <div class="collapse-on-button">
                 <div class="frame-child34"></div>
-                <img
-                  class="vector-49-stroke2"
-                  alt=""
-                  src="./public/vector-49-stroke-1.svg"
-                />
+                    <i class="fa-solid fa-chevron-up"></i>
               </div>
             </div>
           </header>
@@ -120,9 +106,96 @@
                 <td>254-383-5521</td>
                 <td>boston@example.com</td>
                 <td>07/01/2024</td>
-                <td>Need to Send</td>
                 <td>
-                  <div class="action-buttons"></div>
+                    <div class="status-need-to-send">Need to Send</div>
+                </td>
+                <td>
+                    <div class="action-buttons">
+                        <div class="view-button">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <div class="delete-button">
+                            <i class="bi bi-trash"></i>
+                        </div>
+                        <div class="more-button">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>126 Green St, Unit # 126, Melrose, MA 02176</td>
+                <td>Mohammad Abu Zahin</td>
+                <td>Zahin</td>
+                <td>254-383-5521</td>
+                <td>boston@example.com</td>
+                <td>07/01/2024</td>
+                <td>
+                    <div class="status-need-to-send">Need to Send</div>
+                </td>
+                <td>
+                    <div class="action-buttons">
+                        <div class="view-button">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <div class="delete-button">
+                            <i class="bi bi-trash"></i>
+                        </div>
+                        <div class="more-button">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>126 Green St, Unit # 126, Melrose, MA 02176</td>
+                <td>Mohammad Abu Zahin</td>
+                <td>Zahin</td>
+                <td>254-383-5521</td>
+                <td>boston@example.com</td>
+                <td>07/01/2024</td>
+                <td>
+                    <div class="status-need-to-send">Need to Send</div>
+                </td>
+                <td>
+                    <div class="action-buttons">
+                        <div class="view-button">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <div class="delete-button">
+                            <i class="bi bi-trash"></i>
+                        </div>
+                        <div class="more-button">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>126 Green St, Unit # 126, Melrose, MA 02176</td>
+                <td>Mohammad Abu Zahin</td>
+                <td>Zahin</td>
+                <td>254-383-5521</td>
+                <td>boston@example.com</td>
+                <td>07/01/2024</td>
+                <td>
+                    <div class="status-need-to-send">Need to Send</div>
+                </td>
+                <td>
+                    <div class="action-buttons">
+                        <div class="view-button">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <div class="delete-button">
+                            <i class="bi bi-trash"></i>
+                        </div>
+                        <div class="more-button">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
                 </td>
               </tr>
             </tbody>
@@ -135,7 +208,7 @@
           <div class="inspector-group">
             <div class="inspector-name">
               <div class="inspected-by">Inspected by</div>
-              <b class="inspector-name">Mohammad Zahin</b>
+                <b class="inspector-name">Mohammad Zahin</b>
             </div>
           </div>
 
@@ -143,32 +216,32 @@
             <div class="need-to-send-button-group">
               <div class="need-to-send-button">
                 <span class="button-name">need to Send</span>
-                <b>(5)</b>
+                    <b>(5)</b>
               </div>
             </div>
 
             <div class="first-follow-up-group">
               <div class="first-follow-up-button">
-                <span class="button-name">1st follow-up</span>
-                <b>(5)</b>
-              </div>
+                <span class="button-name">1st Follow-up</span>
+                    <b>(5)</b>
+                </div>
             </div>
             <div class="second-follow-up-group">
               <div class="second-follow-up-button">
-                <span class="button-name">2nd follow-up</span>
-                <b>(5)</b>
+                <span class="button-name">2nd Follow-up</span>
+                    <b>(5)</b>
               </div>
             </div>
             <div class="completed-group">
               <div class="completed-button">
                 <span class="button-name">Completed</span>
-                <b>(5)</b>
+                    <b>(5)</b>
               </div>
             </div>
             <div class="trash-review-group">
               <div class="trash-review-button">
-                <span class="button-name">trash Review</span>
-                <b>(5)</b>
+                <span class="button-name">Trash Review</span>
+                    <b>(5)</b>
               </div>
             </div>
           </div>
@@ -178,13 +251,9 @@
           <div class="follow-up-button">
             <b class="follow-up">Follow up</b>
           </div>
-          <div class="action-buttons">
+          <div class="collapse-button">
             <div class="frame-child34"></div>
-            <img
-              class="vector-49-stroke2"
-              alt=""
-              src="./public/vector-49-stroke-1.svg"
-            />
+                <i class="fa-solid fa-chevron-up"></i>
           </div>
         </div>
       </section>
