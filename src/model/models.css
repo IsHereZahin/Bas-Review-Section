@@ -1,0 +1,226 @@
+.history-model {
+    border-radius: 10px;
+    border: 1px solid #19B7A2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #2F415E;
+}
+.position-relative {
+    padding: 20px;
+    position: relative;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.icon-container {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+.icon-container:hover {
+    background-color: #f8f9fa;
+}
+.icon-container:hover i {
+    color: #19B7A2;
+}
+.icon-container i {
+    font-size: 24px;
+    color: #333;
+}
+.table-container {
+    overflow-x: auto;
+}
+table {
+    min-width: 100%;
+}
+thead tr {
+    border-bottom: 2px solid #E5E5E5;
+}
+table th,
+table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    color: #2F415E;
+}
+td .date-time {
+    margin-bottom: -15px;
+}
+td .date-time .time {
+    color: #828B9A;
+    font-size: 14px;
+    margin-top: -15px;
+}
+td .completed {
+    color: #28C76F;
+}
+td .status-need-to-send {
+    color: #FF4C51;
+}
+td .first-follow-up,
+td .second-follow-up {
+    color: #FF9F43;
+}
+
+/* Sent follow up message */
+.follow-up-model{
+    border-radius: 10px;
+    border: 1px solid #19B7A2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #2F415E;
+}
+label {
+    font-size: 16px;
+    color: #2F415E;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.form-group {
+    padding: 10px 0;
+}
+.vue-tags-input {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ti-tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ti-tag {
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #2F415E;
+    font-weight: 600;
+}
+.ti-tag span {
+    margin-right: 16px;
+}
+.ti-icon-close {
+    cursor: pointer;
+    color: #333333;
+    padding: 0 5px;
+    border: 1px solid #afafaf;
+    border-radius: 50px;
+}
+.ti-new-tag-input-wrapper {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.ti-new-tag-input {
+    border: none;
+    outline: none;
+    padding: 2px;
+    margin: 5px;
+    flex: 1;
+}
+
+/* Add new review */
+.submit-button,
+.cancel-button {
+    display: inline-block;
+    padding: 0.65rem 1.4rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 0.2rem;
+}
+
+.submit-button {
+    background-color: #19B7A2;
+    color: #ffffff
+}
+
+.submit-button:hover {
+    background-color: #109684;
+    color: #ffffff
+}
+
+.cancel-button {
+    background-color: #3a4c69;
+    color: #ffffff;
+}
+
+.cancel-button:hover {
+    background-color: #273852;
+    color: #ffffff;
+}
+
+.form-group span {
+    color: #FF4C51;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group select, 
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    color: #2F415E;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.form-group select:focus, 
+.form-group input:focus {
+    border-color: #19B7A2;
+    outline: none;
+}
+
+.vue-tags-input {
+    margin-top: 0.5rem;
+    padding: 0 10px 0 0;
+}
+
+.ti-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ti-new-tag-input-wrapper {
+    position: relative;
+}
+
+.ti-new-tag-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #19B7A2;
+    border-radius: 5px;
+    color: #333333;
+}
